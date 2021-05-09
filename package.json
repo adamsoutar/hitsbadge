@@ -1,0 +1,14 @@
+{
+  "name": "hitsbadge",
+  "version": "1.0.0",
+  "description": "A GitHub badge hit counter",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "author": "Adam Soutar",
+  "license": "MIT",
+  "devDependencies": {
+    "vercel": "^22.0.1"
+  }
+}
