@@ -3,7 +3,7 @@
 <h4 align="center">A 90s hit counter for your GitHub READMEs</h4>
 
 <p align="center">
-  <img src="https://hitsbadge.vercel.app/api/badge?id=hitsbadge-repo" />
+  <img src="https://hitsbadge.vercel.app/api/badge?id=hitsbadge" />
 </p>
 
 ## Usage
