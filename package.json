@@ -12,6 +12,7 @@
     "vercel": "^22.0.1"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "countapi-js": "^1.0.2"
   }
 }
