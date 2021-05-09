@@ -3,10 +3,10 @@ import provideBadge from '../lib/provide-badge'
 
 module.exports = async (req, res) => {
   if (!req.query.id) {
-    return provideBadge(res, 'ERROR', 'No id provided', 'critical')
+    return provideBadge(res, 'error', 'No id provided', 'critical')
   }
 
   const { value } = await countapi.hit('hitsbadge', req.query.id)
 
-  provideBadge(res, 'Hits', value, 'brightgreen')
+  provideBadge(res, 'hits', value, 'brightgreen')
 }
