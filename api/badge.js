@@ -6,7 +6,7 @@ module.exports = async (req, res) => {
     return provideBadge(res, 'ERROR', 'No id provided', 'critical')
   }
 
-  const { value } = await countapi.visits(req.query.id)
+  const { value } = await countapi.hit('hitsbadge', req.query.id)
 
   provideBadge(res, 'Hits', value, 'brightgreen')
 }
